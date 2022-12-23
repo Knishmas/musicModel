@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4NF1oyOomw+FCRgJ0tKH81IZZzDZxToCxThuWVeG9DrqM8yVGVjxEBuZVDva4pO7ZMf+uSIqTNv5i4ncyyv6EA==",
+  "dgSpecHash": "v/sbxgm0c38+T7g7S44EGZyDoMckQY3XKAtp3THyaIxnLAyqKuFXreffICtj67BxMdRPjL2ejh89Zpad1cai8w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andre\\Documents\\projects\\musicOfficial\\Comp584-Final\\COMP584-Final\\Model\\MusicModel\\MusicModel.csproj",
+  "projectFilePath": "C:\\Users\\Andre\\Documents\\projects\\musicModel\\Model\\MusicModel\\MusicModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

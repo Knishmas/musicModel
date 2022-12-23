@@ -23,8 +23,6 @@ public class ArtistsController : ControllerBase
     // GET: api/Artists
     //[Authorize]
     [HttpGet]
-    //Getting some errors with just using "Artist" below so I changed it to "Name" for now, may need to come back
-    //If I can change "Artist" to "name" I'll be fine 
     public async Task<ActionResult<IEnumerable<Artist>>> GetArtists() => await _context.Artists.OrderBy(c => c.ArtistName).ToListAsync();
 
     // GET: api/Artists/5
@@ -35,7 +33,6 @@ public class ArtistsController : ControllerBase
             .Select(c => new
             {
                 c.Id,
-                //Also changing Name to name here for test sake
                 c.ArtistName,
                 c.Genre
             })
@@ -70,8 +67,6 @@ public class ArtistsController : ControllerBase
             .Select(c => new SongDto
             {
                 Id = c.Id,
-                //Originally should be name, but in database, titled " Song" causing some 
-                //errors, temporary fi to check will be channging to  Artist
                 Name = c.Name,
                 ArtistId = c.ArtistId,
                 ArtistName = c.Artist.ArtistName

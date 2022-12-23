@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6iLhtxJDGoQKQaNhIJoIueW11iLY9zcmH/+tjbspKqVqkpFJr5YryHGF16iGRyuq+DBZuVi0zQYXe0XtkSYVOQ==",
+  "dgSpecHash": "XL6J7Hj7RGPF013O2u9IBjJ9P+1IH7IM2nYFnHpTi+j9f293d0gACIFIiIkXFf+lRubofpiBKhE4vv8JoSEADg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andre\\Documents\\projects\\musicOfficial\\Comp584-Final\\COMP584-Final\\Model\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
+  "projectFilePath": "C:\\Users\\Andre\\Documents\\projects\\musicModel\\Model\\MusicAPI\\MusicAPI\\MusicAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andre\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Andre\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
